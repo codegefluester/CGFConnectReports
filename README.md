@@ -32,6 +32,15 @@ CGFConnectReports *reports = [CGFConnectReports instance];
 __reportType__    
 Sales or Newsstand
 
+__username__
+Your Apple ID
+
+__password__
+The password for your Apple ID
+
+__vendorID__
+Your vendor id, begins with an 8
+
 __dateType__    
 Daily, Weekly, Monthly or Yearly
 
