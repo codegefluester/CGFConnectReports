@@ -10,7 +10,13 @@ Add all files to your project, go to your projects build settings in Xcode and a
 ```objc
 CGFConnectReports *reports = [CGFConnectReports instance];
     
-[reports downloadReportsOfType:@"Sales" username:@"YOUR_APPLE_ID" password:@"APPLE_ID_PASSWORD" vendorId:@"YOUR_VENDOR_ID" dateType:@"Daily" subtype:@"Summary" fromDate:@"20130307" onComplete:^(id response, NSError *error) {
+[reports downloadReportsOfType:@"Sales" 
+                      username:@"YOUR_APPLE_ID" 
+                      password:@"APPLE_ID_PASSWORD" 
+                      vendorId:@"YOUR_VENDOR_ID" 
+                      dateType:@"Daily" subtype:@"Summary" 
+                      fromDate:@"20130307" 
+                    onComplete:^(id response, NSError *error) {
     if (error) {
         NSLog(@"Error: %@", error.localizedDescription);
     } else {
