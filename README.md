@@ -32,13 +32,13 @@ CGFConnectReports *reports = [CGFConnectReports instance];
 __reportType__    
 Sales or Newsstand
 
-__username__
+__username__    
 Your Apple ID
 
-__password__
+__password__    
 The password for your Apple ID
 
-__vendorID__
+__vendorID__    
 Your vendor id, begins with an 8
 
 __dateType__    
