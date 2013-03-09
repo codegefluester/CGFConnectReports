@@ -70,10 +70,4 @@ static CGFConnectReports *_sharedInstance = nil;
     
 }
 
--(void) ErrorMessage:(NSString*) msg
-{
-    NSLog(@"Unzip error: %@", msg);
-}
-
-
 @end
