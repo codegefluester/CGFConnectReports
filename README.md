@@ -36,7 +36,7 @@ __dateType__
 Daily, Weekly, Monthly or Yearly
 
 __reportSubtype__    
-Summary, Detailed or Opt-In (__Note:__ Detailed is only available for Newsstand reports)
+Summary, Detailed or Opt-In (Detailed reports are only available for Newsstand)
 
 __date__ (optional, if no date parameter is provided, iTC will return the latest report available)    
 YYYYMMDD (Daily or Weekly)
