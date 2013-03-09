@@ -1,9 +1,7 @@
-CGFConnectReports
-=================
+## CGFConnectReports
 A small helper to download sales reports from iTunes Connect
 
-Usage
-=================
+## Setup
 Add all files to your project, go to your projects build settings in Xcode and add `-lz` to **Other linker flags**
 
 ## Download daily reports for a specific date
