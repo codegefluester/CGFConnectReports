@@ -49,3 +49,8 @@ __date__ (optional, if no date parameter is provided, iTC will return the latest
 YYYYMMDD (Daily or Weekly)
 YYYYMM (Monthly)
 YYYY (Yearly)
+
+## TODOs
+- Currently you have to parse the reports yourself, I plan to add methods that will do this for you
+- Filter sales of a specific app
+- Any ideas? Let me know!
