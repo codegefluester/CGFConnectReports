@@ -29,16 +29,16 @@ CGFConnectReports *reports = [CGFConnectReports instance];
 ```
 
 ## Parameters
-__reportType__
+__reportType__    
 Sales or Newsstand
 
-__dateType__
+__dateType__    
 Daily, Weekly, Monthly or Yearly
 
-__reportSubtype__
+__reportSubtype__    
 Summary, Detailed or Opt-In (**Note:** Detailed is only available for Newsstand reports)
 
-__date__ (optional, if no date parameter is provided, iTC will return the latest report available)
+__date__ (optional, if no date parameter is provided, iTC will return the latest report available)    
 YYYYMMDD (Daily or Weekly)
 YYYYMM (Monthly)
 YYYY (Yearly)
